@@ -5,9 +5,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" href="favicon.png">
+  <script async defer src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
   <title>Personal Web</title>
 </head>
 <body>
-  <h1>Wkwkwk</h1>
+  <nav class="sticky top-0 flex justify-between items-center px-6 lg:px-10 py-5">
+    <div class="text-lg md:text-xl xl:text-2xl font-bold text-blue-600">
+      <a href="/">My Logo</a>
+    </div>
+    <div class="md:block hidden items-center text-lg text-gray-600">
+      <a href="#" class="px-6 font-medium py-2 hover:bg-blue-50 hover:text-blue-700 rounded-lg">Home</a>
+      <a href="#" class="px-6 font-medium py-2 hover:bg-blue-50 hover:text-blue-700 rounded-lg">Project</a>
+      <a href="#" class="px-6 font-medium py-2 hover:bg-blue-50 hover:text-blue-700 rounded-lg">Galery</a>
+    </div>
+    <div class="md:hidden">
+      <button name="button sidemenu">
+        <span class="iconify text-3xl" data-icon="system-uicons:menu-hamburger"></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="mainContent"></main>
 </body>
 </html>
