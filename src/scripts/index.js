@@ -1,3 +1,9 @@
-import 'regenerator-runtime'
+import 'regenerator-runtime';
+import App from './views/app';
 
-console.log('Hello World')
+const app = new App({
+  openDrawer: document.querySelector('#hamburgerButton'),
+  closeDrawer: document.querySelector('#closeNavbar'),
+  drawer: document.querySelector('#navigationDrawer'),
+  content: document.querySelector('#mainContent'),
+});
