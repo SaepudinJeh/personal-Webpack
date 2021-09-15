@@ -1,10 +1,11 @@
+/* eslint-disable max-len */
 const ProjectPage = {
   async render() {
     return `
-      <section class="flex justify-center px-6 mt-5 mx-auto w-full">
+      <section class="flex justify-center mt-5 mx-auto w-full">
         <div class="w-full">
           <div class="divide-y divide-solid divide-blue-400">
-            <h1 class="flex justify-center text-xl font-medium border-blue-400 cursor-pointer">
+            <h1 class="flex justify-center text-xl font-medium border-blue-400 cursor-pointer hover:text-blue-700">
               My Project
             </h1>
           </div>
